@@ -34,9 +34,9 @@ playwright-project/
 │   │   ├── pom/
 │   │   │   ├── pricePages.js
 │   │   │   └── ...
+│   │   └── testDate
 │   │   ├── pricePage/
-│   │   │   ├── tests/
-│   │   │   │   ├──price.spec.ts
+│   │   │   ├──price.spec.ts
 │   │   └── ...
 ├── .gitignore
 └── README.md
