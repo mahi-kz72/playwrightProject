@@ -33,7 +33,7 @@ playwright-project/
 ├── tests/
 │   ├── pom/
 │   │   ├── pricePages.js
-│   │   │   └── ...
+│   │   └── ...
 │   └── testDate
 │   ├── pricePage/
 │   │   ├──price.spec.ts
