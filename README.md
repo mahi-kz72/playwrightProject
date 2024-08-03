@@ -19,9 +19,10 @@ Porpuse of this project is setting up the Playwright and its infrastructure.
 After installation complete, start testing using one of the following commands:
 
 1. Run tests in interactive UI mode, with a built-in watch mode : `npm run ui`
-2. Run tests in headed browsers : `npm run headed`
-3. Run in debug mode with Playwright Inspector: `npm run debug`
-4. See your test result with following command : `npm run test-result`
+2. Run tetst in headless: `npx playwright test`
+3. Run tests in headed browsers : `npx playwright --headed`
+4. Run in debug mode with Playwright Inspector: `npx playwright debug`
+5. See your test result with following command : `npx playwright test-result`
 
 
 **Project Structure:**
@@ -30,16 +31,16 @@ After installation complete, start testing using one of the following commands:
 playwright-project/
 ├── package.json
 ├── tests/
-│   ├── pages/
-│   │   ├── pom/
-│   │   │   ├── pricePages.js
+│   ├── pom/
+│   │   ├── pricePages.js
 │   │   │   └── ...
-│   │   └── testDate
-│   │   ├── pricePage/
-│   │   │   ├──price.spec.ts
+│   └── testDate
+│   ├── pricePage/
+│   │   ├──price.spec.ts
 │   │   └── ...
 ├── .gitignore
 └── README.md
+...
 ```
 
 ### Husky, ESLint, and Prettier
